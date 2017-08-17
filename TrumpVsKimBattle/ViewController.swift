@@ -49,7 +49,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     //ad mob
     @IBOutlet weak var myAdMob: GADBannerView!
     
-   
     // Start game function
     func start(){
         grid = [[0, 0, 0] , [0, 0, 0], [0, 0, 0]]
@@ -68,7 +67,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         p2ScoreLabel.backgroundColor=UIColor.white
     }
     
-    
      // Choosing kim image to play as kim
     @IBAction func btnK(_ sender: UIButton) {
         currentPlayer = 2
@@ -76,8 +74,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         p2ScoreLabel.backgroundColor=UIColor.black
     }
    
-   
-    
     // When pressing one of the buttons to play the game
     @IBAction func cellSelected(_ sender: UIButton) {
         
@@ -134,7 +130,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             if p2Win == true {
                 alertWinner(playerName: "KIM")
             }
-            
             // Otherwise, player 1 can now play the game
             currentPlayer = 1
         }
