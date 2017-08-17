@@ -1,5 +1,5 @@
 # Trump Vs Kim Battle
-Tic Tac Toe game Trump vs Tim
+Tic Tac Toe game Trump vs kim
 
 This is game is developed for purely entertainment purpose,It is not encourse to any things that related to trump and kim.
 Please take this game for fun purpose.
