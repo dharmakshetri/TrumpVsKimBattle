@@ -9,19 +9,26 @@
 /* Begin PBXBuildFile section */
 		7A7F345A1F4516DC00A43DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F34591F4516DC00A43DD7 /* AppDelegate.swift */; };
 		7A7F345C1F4516DC00A43DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F345B1F4516DC00A43DD7 /* ViewController.swift */; };
-		7A7F345F1F4516DC00A43DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F345D1F4516DC00A43DD7 /* Main.storyboard */; };
 		7A7F34611F4516DC00A43DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F34601F4516DC00A43DD7 /* Assets.xcassets */; };
-		7A7F34641F4516DC00A43DD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F34621F4516DC00A43DD7 /* LaunchScreen.storyboard */; };
+		7A7F34711F451CE800A43DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F346F1F451C1000A43DD7 /* Main.storyboard */; };
+		7A7F34761F45269A00A43DD7 /* usavskorea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F34731F45218F00A43DD7 /* usavskorea.mp3 */; };
+		7A9001AA1F4586C000C24061 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A9001A91F45846800C24061 /* GoogleService-Info.plist */; };
+		DF5556CC7EA7FF1600C087CA /* Pods_TrumpVsKimBattle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4E4828B405EAF3E0A2C15E /* Pods_TrumpVsKimBattle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49F19628A679BFC0833B1F85 /* Pods-TrumpVsKimBattle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpVsKimBattle.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpVsKimBattle/Pods-TrumpVsKimBattle.release.xcconfig"; sourceTree = "<group>"; };
+		4DABC3AD0D82A5E4C1EC5B1D /* Pods-TrumpVsKimBattle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpVsKimBattle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpVsKimBattle/Pods-TrumpVsKimBattle.debug.xcconfig"; sourceTree = "<group>"; };
 		7A7F34561F4516DC00A43DD7 /* TrumpVsKimBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrumpVsKimBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7F34591F4516DC00A43DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A7F345B1F4516DC00A43DD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A7F345E1F4516DC00A43DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A7F34601F4516DC00A43DD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A7F34631F4516DC00A43DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A7F34651F4516DC00A43DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7F346E1F451C1000A43DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A7F34701F451C1000A43DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A7F34731F45218F00A43DD7 /* usavskorea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = usavskorea.mp3; sourceTree = "<group>"; };
+		7A9001A91F45846800C24061 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C4E4828B405EAF3E0A2C15E /* Pods_TrumpVsKimBattle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrumpVsKimBattle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +36,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5556CC7EA7FF1600C087CA /* Pods_TrumpVsKimBattle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B124E6F61181AFED7F3AFBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C4E4828B405EAF3E0A2C15E /* Pods_TrumpVsKimBattle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7A7F344D1F4516DC00A43DD7 = {
 			isa = PBXGroup;
 			children = (
 				7A7F34581F4516DC00A43DD7 /* TrumpVsKimBattle */,
 				7A7F34571F4516DC00A43DD7 /* Products */,
+				D46734F54CE81FD7DE83B8EA /* Pods */,
+				6B124E6F61181AFED7F3AFBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +74,31 @@
 			children = (
 				7A7F34591F4516DC00A43DD7 /* AppDelegate.swift */,
 				7A7F345B1F4516DC00A43DD7 /* ViewController.swift */,
-				7A7F345D1F4516DC00A43DD7 /* Main.storyboard */,
-				7A7F34601F4516DC00A43DD7 /* Assets.xcassets */,
-				7A7F34621F4516DC00A43DD7 /* LaunchScreen.storyboard */,
+				7A7F346D1F451C1000A43DD7 /* LaunchScreen.storyboard */,
+				7A7F346F1F451C1000A43DD7 /* Main.storyboard */,
 				7A7F34651F4516DC00A43DD7 /* Info.plist */,
+				7A9001A91F45846800C24061 /* GoogleService-Info.plist */,
+				7A7F34601F4516DC00A43DD7 /* Assets.xcassets */,
+				7A7F34751F4525D800A43DD7 /* Music */,
 			);
 			path = TrumpVsKimBattle;
+			sourceTree = "<group>";
+		};
+		7A7F34751F4525D800A43DD7 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				7A7F34731F45218F00A43DD7 /* usavskorea.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		D46734F54CE81FD7DE83B8EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DABC3AD0D82A5E4C1EC5B1D /* Pods-TrumpVsKimBattle.debug.xcconfig */,
+				49F19628A679BFC0833B1F85 /* Pods-TrumpVsKimBattle.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A7F34681F4516DC00A43DD7 /* Build configuration list for PBXNativeTarget "TrumpVsKimBattle" */;
 			buildPhases = (
+				787A438766F6C43B664F479E /* [CP] Check Pods Manifest.lock */,
 				7A7F34521F4516DC00A43DD7 /* Sources */,
 				7A7F34531F4516DC00A43DD7 /* Frameworks */,
 				7A7F34541F4516DC00A43DD7 /* Resources */,
+				D99F710078FC9200EB7789D3 /* [CP] Embed Pods Frameworks */,
+				6635EFACA8AD33801C244D44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,13 +162,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A7F34641F4516DC00A43DD7 /* LaunchScreen.storyboard in Resources */,
+				7A7F34761F45269A00A43DD7 /* usavskorea.mp3 in Resources */,
+				7A9001AA1F4586C000C24061 /* GoogleService-Info.plist in Resources */,
 				7A7F34611F4516DC00A43DD7 /* Assets.xcassets in Resources */,
-				7A7F345F1F4516DC00A43DD7 /* Main.storyboard in Resources */,
+				7A7F34711F451CE800A43DD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6635EFACA8AD33801C244D44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrumpVsKimBattle/Pods-TrumpVsKimBattle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787A438766F6C43B664F479E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrumpVsKimBattle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D99F710078FC9200EB7789D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrumpVsKimBattle/Pods-TrumpVsKimBattle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrumpVsKimBattle/Pods-TrumpVsKimBattle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A7F34521F4516DC00A43DD7 /* Sources */ = {
@@ -143,20 +240,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7A7F345D1F4516DC00A43DD7 /* Main.storyboard */ = {
+		7A7F346D1F451C1000A43DD7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A7F345E1F4516DC00A43DD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7A7F34621F4516DC00A43DD7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A7F34631F4516DC00A43DD7 /* Base */,
+				7A7F346E1F451C1000A43DD7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7A7F346F1F451C1000A43DD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A7F34701F451C1000A43DD7 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -165,7 +262,7 @@
 		7A7F34661F4516DC00A43DD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -196,6 +293,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -222,7 +320,7 @@
 		7A7F34671F4516DC00A43DD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -253,6 +351,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -271,11 +370,15 @@
 		};
 		7A7F34691F4516DC00A43DD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DABC3AD0D82A5E4C1EC5B1D /* Pods-TrumpVsKimBattle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DPR9SN89DL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = TrumpVsKimBattle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "./**";
 				PRODUCT_BUNDLE_IDENTIFIER = co.prandroid.TrumpVsKimBattle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -285,11 +388,15 @@
 		};
 		7A7F346A1F4516DC00A43DD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F19628A679BFC0833B1F85 /* Pods-TrumpVsKimBattle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DPR9SN89DL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = " $(inherited)";
 				INFOPLIST_FILE = TrumpVsKimBattle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "./**";
 				PRODUCT_BUNDLE_IDENTIFIER = co.prandroid.TrumpVsKimBattle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
