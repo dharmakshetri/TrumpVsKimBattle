@@ -57,7 +57,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         for button in gridButtons{
             button.setImage(nil, for: .normal)
         }
-        
         currentPlayer = 1
     }
     // Choosing trump image to play as trump

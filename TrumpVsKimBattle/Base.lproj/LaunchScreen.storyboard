@@ -25,20 +25,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="trump" translatesAutoresizingMaskIntoConstraints="NO" id="aMg-tu-978">
-                                <rect key="frame" x="-1" y="258" width="150" height="150"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trump" translatesAutoresizingMaskIntoConstraints="NO" id="aMg-tu-978">
+                                <rect key="frame" x="0.0" y="258" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="kim" translatesAutoresizingMaskIntoConstraints="NO" id="9Gk-ka-xbJ">
-                                <rect key="frame" x="226" y="252" width="156" height="156"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kim" translatesAutoresizingMaskIntoConstraints="NO" id="9Gk-ka-xbJ">
+                                <rect key="frame" x="225" y="258.5" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWC-Yt-fGN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWC-Yt-fGN">
                                 <rect key="frame" x="157" y="305" width="61.5" height="57.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trump Vs Kim Battle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5W-gD-r9x">
-                                <rect key="frame" x="-7" y="85" width="376" height="33"/>
+                                <rect key="frame" x="0.0" y="85" width="375" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -53,19 +56,11 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="aMg-tu-978" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1QX-Y1-1hT"/>
-                            <constraint firstItem="9Gk-ka-xbJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4rh-KN-vGv"/>
-                            <constraint firstItem="9Gk-ka-xbJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7SY-fh-tRw"/>
-                            <constraint firstItem="aMg-tu-978" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="DbG-hU-aRp"/>
-                            <constraint firstItem="SWC-Yt-fGN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="L0O-BE-8Cd"/>
-                            <constraint firstItem="SWC-Yt-fGN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kSq-YM-Izu"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="51.5" y="374.5"/>
         </scene>
     </scenes>
     <resources>
