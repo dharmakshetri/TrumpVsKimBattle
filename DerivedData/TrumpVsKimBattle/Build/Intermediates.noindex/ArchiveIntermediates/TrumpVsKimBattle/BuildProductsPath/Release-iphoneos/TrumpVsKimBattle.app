@@ -1,0 +1,1 @@
+/Users/dharmakshetri/Desktop/IOS Project/TrumpVsKimBattle/DerivedData/TrumpVsKimBattle/Build/Intermediates.noindex/ArchiveIntermediates/TrumpVsKimBattle/InstallationBuildProductsLocation/Applications/TrumpVsKimBattle.app
