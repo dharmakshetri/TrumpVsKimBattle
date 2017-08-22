@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.59 clang-900.0.34.2)"
-options: "72dc8db6d0f59d59b16c682bd1c163fd"
-build_time: [1503287594, 138786000]
+options: "c225212a12be48923e8cbe2a68dcc2b3"
+build_time: [1503359235, 666797000]
 inputs:
   "/Users/dharmakshetri/Desktop/IOS Project/TrumpVsKimBattle/TrumpVsKimBattle/ViewController.swift": [9223372036, 854775807]
   "/Users/dharmakshetri/Desktop/IOS Project/TrumpVsKimBattle/TrumpVsKimBattle/AppDelegate.swift": [9223372036, 854775807]
